@@ -91,7 +91,6 @@ hr {
 }
 .my-float {
   margin-top: 16px;
-  
 }
 /* Navigation */
 #menu {
@@ -229,8 +228,6 @@ a:focus,
 }
 /* Header Section */
 
-
-
 .intro {
   display: table;
   width: 100%;
@@ -258,8 +255,6 @@ a:focus,
   font-weight: 300;
   padding: 3.5px 0;
   color: #fff;
-  
- 
 }
 .intro h1 span {
   font-weight: 800;
@@ -291,7 +286,7 @@ header .intro-text {
   display: inline-block;
   margin: 0px 30px;
 }
-#header .home-icons ul{
+#header .home-icons ul {
   margin-bottom: -190px;
 }
 #header .home-icons i.fa {
@@ -305,12 +300,11 @@ header .intro-text {
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
-
 }
 #header .home-icons i.fa:hover {
   color: #608dfd;
   background: #fff;
-    zoom: 1.3;
+  zoom: 1.3;
 }
 
 /* Features Section */
@@ -669,9 +663,9 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-info{
+#contact .contact-info {
   margin-top: 80px;
-  margin-left: 70px; 
+  margin-left: 70px;
 }
 #contact .contact-item {
   margin: 20px 0;
@@ -688,7 +682,7 @@ label {
   margin-right: 10px;
 }
 #contact .social {
-  border-top:  0.6px solid rgba(255, 255, 255, 0.15);
+  border-top: 0.6px solid rgba(255, 255, 255, 0.15);
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: -80px;
@@ -697,7 +691,6 @@ label {
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
-
 }
 #contact .social i.fa {
   font-size: 20px;
@@ -719,15 +712,14 @@ label {
 }
 #webdsgn h3 {
   font-size: 20px;
- /* margin: 0 0 20px 0;*/
+  /* margin: 0 0 20px 0;*/
 }
 #webdsgn h2 {
   position: relative;
-margin-bottom: 45px;
+  margin-bottom: 45px;
   padding-bottom: 40px;
   text-align: center;
-}  
-
+}
 
 #webdsgn p {
   line-height: 20px;
@@ -749,10 +741,9 @@ margin-bottom: 45px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
   margin-top: 5px;
   margin-bottom: 5px;
-
 }
 
-#webdsgn .lefty i.fa{
+#webdsgn .lefty i.fa {
   font-size: 18px;
   text-align: center;
   width: 40px;
@@ -764,7 +755,6 @@ margin-bottom: 45px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
   margin-top: 2px;
   margin-right: 10px;
-  
 }
 #webdsgn .lefty p {
   font-size: 12px;
@@ -774,35 +764,27 @@ margin-bottom: 45px;
   text-align: center;
   margin: 2.1px 0;
 }
-#webdsgn .lefty{
+#webdsgn .lefty {
   margin-top: 110px;
-  margin-left:  50px;
+  margin-left: 50px;
 
-
- /*background-color: lightblue;*/
-
+  /*background-color: lightblue;*/
 }
-#webdsgn .phead{
+#webdsgn .phead {
   margin-right: 60px;
   margin-bottom: 20px;
-
 }
-#webdsgn .phead h2{
+#webdsgn .phead h2 {
   margin-top: 428px;
   margin-bottom: -20px;
-
 }
 
-
-
-#webdsgn .colrrr{
-   background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-   border-top-left-radius: 50px 30px;
-   border-top-right-radius: 50px 30px;
-   border-bottom-left-radius: 50px 30px;
+#webdsgn .colrrr {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-top-left-radius: 50px 30px;
+  border-top-right-radius: 50px 30px;
+  border-bottom-left-radius: 50px 30px;
   border-bottom-right-radius: 50px 30px;
-
-
 }
 #webdsgn .lefty h3 {
   color: white;
@@ -810,8 +792,8 @@ margin-bottom: 45px;
   margin-top: -60px;
 }
 
-#webdsgn li{
- color: white;
+#webdsgn li {
+  color: white;
   font-size: 18px;
   text-align: left;
 
@@ -819,14 +801,13 @@ margin-bottom: 45px;
 }
 
 /* Pricing Section*/
- #pricing .col{
-float: left;
-width: 33.3%;
-padding: 8px;
-box-sizing: border-box;
+#pricing .col {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  box-sizing: border-box;
 }
- #pricing .price-box {
-
+#pricing .price-box {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: white;
   list-style-type: none;
@@ -834,56 +815,54 @@ box-sizing: border-box;
   margin: 0;
   padding: 0;
   transition: 0.3s;
-  
 }
- #pricing .price-box li{
+#pricing .price-box li {
   padding: 10px;
- text-align: center;
- }
- #pricing .price{
-  background-color:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  text-align: center;
+}
+#pricing .price {
+  background-color: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   font-size: 18px;
-   width: 120px;
+  width: 120px;
   height: 120px;
   border-radius: 50%;
-  border:2px solid #fff;
+  border: 2px solid #fff;
   margin: 5% auto 0 auto;
-  text-align: center;   
- }
-
-#pricing h2{
   text-align: center;
 }
 
- .deals{
+#pricing h2 {
+  text-align: center;
+}
+
+.deals {
   margin-top: 1.3%;
 }
- .price h1{
-   font-family: popping;
-  font-size: 18px;
+.header h1 {
+  font-family: popping;
+  font-size: 28px;
   color: #fff;
-  line-height: 3;
+  line-height: 1;
   text-transform: uppercase;
 }
-#pricing .price h2{
-  display: block;
- font-size: 20px;
- color: #fff; 
- margin-block-start: 0.83em;
- margin-block-end: 0.83em;
- margin-inline-start: 0px;
- margin-inline-end: 0px;
+#pricing .price h2 {
+  font-size: 26px;
+  color: #fff;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-sub{
+sub {
   font-size: 14px;
   text-transform: lowercase;
 }
 
- .price-box:hover {
-  background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff  ;
+.price-box:hover {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-  transform:scale(1.1);
+  transform: scale(1.1);
   z-index: 0.1;
   border-radius: 25px;
 }
@@ -891,7 +870,7 @@ sub{
   border-color: #fff;
 }
 #pricing .btn-custom {
-   padding: 10px 15px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
@@ -903,21 +882,19 @@ sub{
   background: #fff;
 }
 
-}
+/* Web Hosting Section */
+
 /* Making the pricing table responsive*/
-@media screen and (max-width: 980px){
-  .wrapper{
-    flex:50%;
+@media screen and (max-width: 980px) {
+  .wrapper {
+    flex: 50%;
   }
 }
-@media (max-width: 700px){
-  .col{
-    width:100%;
+@media (max-width: 700px) {
+  .col {
+    width: 100%;
   }
 }
-
-
-
 
 /* Footer Section*/
 #footer {
@@ -939,7 +916,7 @@ sub{
   .col-md-3 {
     width: 100%;
   }
- .col-xs-6:last-child {
+  .col-xs-6:last-child {
     margin-top: 50px;
   }
 }
