@@ -765,7 +765,7 @@ label {
   margin: 2.1px 0;
 }
 #webdsgn .lefty {
-  margin-top: 110px;
+  margin-top: 100px;
   margin-left: 50px;
 
   /*background-color: lightblue;*/
@@ -780,6 +780,7 @@ label {
 }
 
 #webdsgn .colrrr {
+  margin-top: 50px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-top-left-radius: 50px 30px;
   border-top-right-radius: 50px 30px;
@@ -796,8 +797,48 @@ label {
   color: white;
   font-size: 18px;
   text-align: left;
-
-  /*background-color: lightblue;*/
+}
+/* Responsiveness for smaller screens */
+@media (max-width: 434px) {
+  #webdsgn .phead {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 982px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 230px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 230px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 700px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 240px;
+    margin-right: 10px;
+  }
 }
 
 /* Pricing Section*/
@@ -815,6 +856,10 @@ label {
   margin: 0;
   padding: 0;
   transition: 0.3s;
+}
+#pricing .lok {
+  transform: scale(1.07);
+  z-index: 0.09;
 }
 #pricing .price-box li {
   padding: 10px;
@@ -862,7 +907,7 @@ sub {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-  transform: scale(1.1);
+  transform: scale(1.18);
   z-index: 0.1;
   border-radius: 25px;
 }
@@ -883,7 +928,139 @@ sub {
 }
 
 /* Web Hosting Section */
+#webdsgn {
+  padding: 100px 0;
+}
+#webdsgn h3 {
+  font-size: 20px;
+  /* margin: 0 0 20px 0;*/
+}
+#webdsgn h2 {
+  position: relative;
+  margin-bottom: 45px;
+  padding-bottom: 40px;
+  text-align: center;
+}
 
+#webdsgn p {
+  line-height: 20px;
+  text-align: left;
+  margin: 2.1px 0;
+}
+#webdsgn .service-desc {
+  margin: 5px 5px 10px;
+}
+#webdsgn i.fa {
+  font-size: 38px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#webdsgn .lefty i.fa {
+  font-size: 18px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2px;
+  margin-right: 10px;
+}
+#webdsgn .lefty p {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+  margin: 2.1px 0;
+}
+#webdsgn .lefty {
+  margin-top: 100px;
+  margin-left: 50px;
+
+  /*background-color: lightblue;*/
+}
+#webdsgn .phead {
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+#webdsgn .phead h2 {
+  margin-top: 428px;
+  margin-bottom: -20px;
+}
+
+#webdsgn .colrrr {
+  margin-top: 50px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-top-left-radius: 50px 30px;
+  border-top-right-radius: 50px 30px;
+  border-bottom-left-radius: 50px 30px;
+  border-bottom-right-radius: 50px 30px;
+}
+#webdsgn .lefty h3 {
+  color: white;
+  text-align: left;
+  margin-top: -60px;
+}
+
+#webdsgn li {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+/* Responsiveness for smaller screens */
+@media (max-width: 434px) {
+  #webdsgn .phead {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 982px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 230px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 230px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 700px) {
+  #webdsgn .colrrr {
+    border-top-left-radius: 0 0;
+    border-top-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+  #webdsgn .phead {
+    padding-top: 240px;
+    margin-right: 10px;
+  }
+}
 /* Making the pricing table responsive*/
 @media screen and (max-width: 980px) {
   .wrapper {
@@ -893,6 +1070,20 @@ sub {
 @media (max-width: 700px) {
   .col {
     width: 100%;
+  }
+  .header h1 {
+    font-size: 19px;
+    text-transform: initial;
+    font-weight: 600;
+  }
+  #pricing .price {
+    width: 100px;
+    height: 100px;
+  }
+  #pricing h2 {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: initial;
   }
 }
 
